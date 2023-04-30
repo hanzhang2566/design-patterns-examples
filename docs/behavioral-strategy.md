@@ -75,7 +75,7 @@ Strategy <-- Client
 
 支持行为的公共接口。Context 使用 Strategy 提供的方法来调用某个 ConcreteStrategyX。
 
-## ConcreteStrategyX类
+## ConcreteStrategyX 类
 
 具体实现 Strategy 接口。
 
