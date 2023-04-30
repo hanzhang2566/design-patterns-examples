@@ -7,16 +7,15 @@ import (
 func Test01(t *testing.T) {
 	lfu := LFU{}
 	cache := NewCache(lfu)
-	cache.Add("one", 1)
-	cache.Add("two", 2)
-	cache.Add("three", 3)
+	cache.Delete()
 
-	// 更换一个算法
+	// 更换一个策略
 	fifo := FIFO{}
 	cache.SetAlg(fifo)
-	cache.Add("four", 4)
+	cache.Delete()
 
+	// 再换一个策略
 	lru := LRU{}
 	cache.SetAlg(lru)
-	cache.Add("five", 5)
+	cache.Delete()
 }
