@@ -9,7 +9,7 @@ import org.junit.Test;
  *
  * @author <a href="mailto:hanzhang2566@foxmail.com">hanzhang</a>
  */
-public class PrototypeTest {
+public class ClientTest {
     /**
      * 原型模式
      *
