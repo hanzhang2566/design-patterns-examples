@@ -22,7 +22,7 @@ Every pattern has a mechanical scene which describe it clear，including java ex
 - [ ] **适配器模式**
 - [ ] **桥接模式**
 - [x] **装饰者模式**
-- [ ] **代理模式**
+- [x] **代理模式**
 - [ ] 组合模式
 - [ ] 门面模式
 - [ ] 享元模式
