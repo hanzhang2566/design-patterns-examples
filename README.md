@@ -14,7 +14,7 @@ Every pattern has a mechanical scene which describe it clear，including java ex
 - [x] **工厂方法模式**
 - [ ] **抽象工厂模式**
 - [ ] **建造者模式**
-- [ ] **单例模式**
+- [x] **单例模式**
 - [x] 原型模式
 
 ### Structual
