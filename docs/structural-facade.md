@@ -10,17 +10,17 @@ tags: design pattern
 
 # 优点
 
-1. 
+1. 屏蔽了子系统组件；
+1. 拆分用户和子系统；
 
 # 缺点
-
-1. 
 
 # 应用场景
 
 1. 解决易用性问题。例如 Linux 系统提供的系统调用函数等；
 1. 解决性能问题。
 1. 解决分布式事务问题。
+1. 拆分客户端和实现之间的依赖；
 
 <!-- more -->
 
@@ -34,42 +34,37 @@ tags: design pattern
 ```mermaid
 classDiagram
 
-class Statable {
+class Facade {
 	<<interface>>
-	domestic() void
-	foreign() void
+	operator()
 }
 
-class Spokesman {
-	domestic() void
-	foreign() void
+class ConcreteFacade {
+	operator()
 }
 
-Statable <|.. Spokesman
+Facade <|.. ConcreteFacade
 
-class Commerce {
-	state() void
-}
+ConcreteFacade o.. SubSystem1
+ConcreteFacade o.. SubSystem2
 
-class Defense {
-	state() void
-}
-
-class Education {
-	state() void
-}
-
-class Foreign {
-	state() void
-}
-
-Spokesman o-- Commerce
-Spokesman o-- Defense
-Spokesman o-- Education
-Spokesman o-- Foreign
+Facade <-- Client
 ```
 
 # 参与者
+
+## Facade 接口
+
+- 向 Client 提供处理任务的接口；
+- 组合 SubSystemX 功能；
+
+## ConcreteFacade 类
+
+- facade 接口的实现；
+
+## SubSystemX
+
+- 子系统
 
 ## Client 类
 
@@ -77,9 +72,8 @@ Spokesman o-- Foreign
 
 # 数据流
 
-1. client 创建一个 Component；
-1. 通过 Decorator 层层包装 client；
-1. 调用 Component 提供的方法进行工作；
+1. Client 调用 Facade 时，Facade 将请求转发到 SubSystem 中；
+1. Client 不需要访问 SubSystem；
 
 # 相关模式
 

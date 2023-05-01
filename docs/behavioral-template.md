@@ -1,5 +1,5 @@
 ---
-title: 装饰模式
+title: 模板方法模式
 date: 2023-04-29 18:57:33
 tags: design pattern
 ---

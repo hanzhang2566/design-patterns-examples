@@ -1,6 +1,6 @@
 ---
 title: 工厂方法模式
-date: 2023-04-29 18:57:33
+date: 2023-04-24 18:57:33
 tags: design pattern
 ---
 
