@@ -29,7 +29,7 @@ Every pattern has a mechanical scene which describe it clear，including java ex
 
 ## Behavioral
 
-- [ ] **模板方法模式**
+- [x] **模板方法模式**
 - [ ] **责任链模式**
 - [ ] **迭代器模式**
 - [ ] **观察者模式**
