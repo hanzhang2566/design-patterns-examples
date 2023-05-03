@@ -1,4 +1,4 @@
-package behavioral;
+package behavioral.observer;
 
 import behavioral.observer.*;
 import org.junit.Test;
