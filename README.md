@@ -12,8 +12,8 @@ Every pattern has a mechanical scene which describe it clear，including java ex
 ## Creational
 
 - [x] **工厂方法模式**
-- [ ] **抽象工厂模式**
-- [ ] **建造者模式**
+- [x] **抽象工厂模式**
+- [x] **建造者模式**
 - [x] **单例模式**
 - [x] 原型模式
 
@@ -33,7 +33,7 @@ Every pattern has a mechanical scene which describe it clear，including java ex
 - [ ] **责任链模式**
 - [ ] **迭代器模式**
 - [ ] **观察者模式**
-- [ ] **状态模式**
+- [x] **状态模式**
 - [x] **策略模式**
 - [ ] 解释器模式
 - [ ] 中介者模式
