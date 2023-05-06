@@ -14,12 +14,9 @@ public class SnapshotManager {
 
     public void pushSnapshot(Snapshot state) {
         snapshotList.push(state);
-        //snapshotList.add(state);
     }
 
-    //public Snapshot popSnapshot(int index) {
     public Snapshot popSnapshot() {
-        //return snapshotList.get(index);
         return snapshotList.pop();
     }
 }

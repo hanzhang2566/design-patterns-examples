@@ -19,7 +19,7 @@ Every pattern has a mechanical scene which describe it clear，including java ex
 
 ### Structual
 
-- [ ] **适配器模式**
+- [x] **适配器模式**
 - [ ] **桥接模式**
 - [x] **装饰者模式**
 - [x] **代理模式**
@@ -38,6 +38,6 @@ Every pattern has a mechanical scene which describe it clear，including java ex
 - [ ] 解释器模式
 - [ ] 中介者模式
 - [ ] 命令模式
-- [ ] 备忘录模式
+- [x] 备忘录模式
 - [ ] 访问者模式
 
