@@ -24,8 +24,8 @@ public class ClientTest {
         HomeIterable homeIterable = new HomeIterable(homes);
         Iterator<Home> iterator = homeIterable.iterator();
         while (iterator.hasNext()) {
-            Home next = iterator.next();
-            System.out.println("next = " + next);
+            Home home = iterator.next();
+            System.out.println("home = " + home);
         }
     }
 }
