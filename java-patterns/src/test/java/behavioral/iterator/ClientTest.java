@@ -1,8 +1,5 @@
-package behavioral.iterable;
+package behavioral.iterator;
 
-import behavioral.iterator.Home;
-import behavioral.iterator.HomeIterable;
-import behavioral.iterator.Iterator;
 import org.junit.Test;
 
 import java.util.ArrayDeque;
