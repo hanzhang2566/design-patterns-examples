@@ -8,7 +8,7 @@ import java.util.Deque;
  *
  * @author <a href="mailto:hanzhang2566@foxmail.com">hanzhang</a>
  */
-public class HomeIterable implements Iterable {
+public class HomeIterable implements Iterable<Home> {
 
     private final Iterator<Home> homeIterator;
 

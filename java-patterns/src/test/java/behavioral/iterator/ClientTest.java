@@ -18,7 +18,7 @@ public class ClientTest {
         homes.offer(Home.builder().id(1).build());
         homes.offer(Home.builder().id(2).build());
         homes.offer(Home.builder().id(3).build());
-        HomeIterable homeIterable = new HomeIterable(homes);
+        Iterable<Home> homeIterable = new HomeIterable(homes);
         Iterator<Home> iterator = homeIterable.iterator();
         while (iterator.hasNext()) {
             Home home = iterator.next();

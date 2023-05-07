@@ -6,11 +6,11 @@ package behavioral.iterator;
  *
  * @author <a href="mailto:hanzhang2566@foxmail.com">hanzhang</a>
  */
-public interface Iterable {
+public interface Iterable<T> {
     /**
      * Returns an iterator over elements of type {@code T}.
      *
      * @return an Iterator.
      */
-    Iterator iterator();
+    Iterator<T> iterator();
 }
