@@ -32,7 +32,7 @@ Every pattern has a mechanical scene which describe it clear，including java ex
 - [x] **模板方法模式**
 - [ ] **责任链模式**
 - [x] **迭代器模式**
-- [ ] **观察者模式**
+- [x] **观察者模式**
 - [x] **状态模式**
 - [x] **策略模式**
 - [ ] 解释器模式
