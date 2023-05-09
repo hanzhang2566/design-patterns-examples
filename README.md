@@ -20,7 +20,7 @@ Every pattern has a mechanical scene which describe it clear，including java ex
 ### Structual
 
 - [x] **适配器模式**
-- [ ] **桥接模式**
+- [x] **桥接模式**
 - [x] **装饰者模式**
 - [x] **代理模式**
 - [x] 组合模式
