@@ -25,7 +25,7 @@ Every pattern has a mechanical scene which describe it clear，including java ex
 - [x] **代理模式**
 - [x] 组合模式
 - [x] 门面模式
-- [ ] 享元模式
+- [x] 享元模式
 
 ## Behavioral
 
