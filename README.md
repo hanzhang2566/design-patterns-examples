@@ -36,7 +36,7 @@ Every pattern has a mechanical scene which describe it clear，including java ex
 - [x] **状态模式**
 - [x] **策略模式**
 - [ ] 解释器模式
-- [ ] 中介者模式
+- [x] 中介者模式
 - [ ] 命令模式
 - [x] 备忘录模式
 - [ ] 访问者模式
