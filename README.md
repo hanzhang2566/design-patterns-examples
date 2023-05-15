@@ -39,5 +39,5 @@ Every pattern has a mechanical scene which describe it clear，including java ex
 - [x] 中介者模式
 - [x] 命令模式
 - [x] 备忘录模式
-- [ ] 访问者模式
+- [x] 访问者模式
 
